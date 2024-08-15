@@ -1,10 +1,17 @@
-Responsive Landing Page:
 
-Design and implement an interactive navigation menu that enhances user experience with responsive behavior. The menu should have the following features:
+# Responsive Landing Page
 
-Fixed Position: The navigation menu should remain visible at the top of the page as the user scrolls.
-Interactivity: Use JavaScript to change the background color, font color, or style of the menu when scrolling or hovering over menu items.
-HTML Structure: Utilize HTML to structure the navigation menu.
-CSS Styling: Apply CSS for styling the menu, ensuring it is visually appealing and responsive across different screen sizes.
+This project involves creating an interactive navigation menu with dynamic styling effects. The menu is designed to enhance user experience with the following features:
 
-This combination of HTML, CSS, and JavaScript will result in a dynamic and user-friendly navigation experience.
+- **Fixed Position:** 
+  - The navigation menu remains visible at the top of the page across all pages.
+
+- **Dynamic Styling:** 
+  - Use JavaScript to add interactivity, including changing the background color or font color of the menu when scrolling or when hovering over menu items.
+
+- **Technology Stack:**
+  - **HTML:** Structure the navigation menu.
+  - **CSS:** Style the menu to ensure it is visually appealing and responsive.
+  - **JavaScript:** Implement functionality for dynamic style changes based on user interactions.
+
+This combination of HTML, CSS, and JavaScript will create a visually engaging and functional navigation menu.
