@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root {
+    --bg-color: white;
+    --second-bg-color: white;
+    --text-color: black;
+    --main-color:rgb(70, 144, 144) ;
+}
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+  
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.logo{
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo.hover{
+    transform: scale(1.1);
+}
+.logo span {
+    text-shadow: 0 0 25px var(--main-color);
+}
+.navbar a{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+section{
+    min-width: 100vh;
+    padding: 10rem 12% 10rem;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+span{
+    color: var(--main-color);
+}
+.logo span{
+    color: var(--main-color);
+}
+.home-content h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.home-content h2{
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-img{
+    border-radius: 50%;
+}
+.home-img img{
+    position: relative;
+    top: 3rem;
+    width: 55vw;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.home-img img:hover{
+    box-shadow: 0 0 25px var(--main-color), 
+    0 0 50px var(--main-color), 
+    0 0 100px var(--main-color);
+}
+
+.services{
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+.services h2{
+    margin-bottom: 5rem;
+}
+.about{
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+.about h2{
+    margin-bottom: 5rem;
+}
+.contact{
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+.contact h2{
+    margin-bottom: 5rem;
+}
+.heading{
+    font-size: 8rem;
+    text-align: center;
+    margin: 1rem  0;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(233, 237, 243);
+}
+
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+h3{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h4{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.home-img1 {
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh; /* Ensures the container takes up the full viewport height */
+}
+
+.home-img1 img {
+    width: 32vw;
+    position: relative;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img1 img:hover {
+    box-shadow: 
+        0 0 25px var(--main-color), 
+        0 0 50px var(--main-color), 
+        0 0 100px var(--main-color);
+}
+.home-img2 {
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh; /* Ensures the container takes up the full viewport height */
+}
+
+.home-img2 img {
+    width: 32vw;
+    position: relative;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img2 img:hover {
+    box-shadow: 
+        0 0 25px var(--main-color), 
+        0 0 50px var(--main-color), 
+        0 0 100px var(--main-color);
+}
+.home-img3 {
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80vh; /* Ensures the container takes up the full viewport height */
+}
+
+.home-img3 img {
+    width: 32vw;
+    position: relative;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img3 img:hover {
+    box-shadow: 
+        0 0 25px var(--main-color), 
+        0 0 50px var(--main-color), 
+        0 0 100px var(--main-color);
+}
